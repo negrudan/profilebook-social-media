@@ -9,6 +9,7 @@ import {
   FormControl,
   useTheme,
   useMediaQuery,
+  Link,
 } from "@mui/material";
 import {
   Search,
@@ -40,7 +41,6 @@ const Navbar = () => {
   const alt = theme.palette.background.alt;
 
   const fullName = `${user.firstName} ${user.lastName}`;
-  // const fullName = `first lastName`;
 
   return (
     <FlexBetween padding="1rem 6%" backgroundColor={alt}>
@@ -57,7 +57,9 @@ const Navbar = () => {
             },
           }}
         >
-          Profilebook
+          <Link href="/home" underline="none">
+            Profilebook
+          </Link>
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
