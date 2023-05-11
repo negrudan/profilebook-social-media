@@ -130,7 +130,7 @@ const UserWidget = ({ userId, picturePath }) => {
             <img src="../assets/facebook.png" alt="facebook" />
             <Box>
               <Typography color={main} fontWeight="500">
-                Twitter
+                Facebook
               </Typography>
               <Typography color={medium}>Social Network</Typography>
             </Box>
