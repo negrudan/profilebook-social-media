@@ -75,7 +75,14 @@ const UserWidget = ({ userId, picturePath }) => {
             <Typography color={medium}>{friends.length} friends</Typography>
           </Box>
         </FlexBetween>
-        <ManageAccountsOutlined />
+        <ManageAccountsOutlined
+          sx={{
+            "&:hover": {
+              color: palette.primary.light,
+              cursor: "pointer",
+            },
+          }}
+        />
       </FlexBetween>
 
       <Divider />
@@ -120,7 +127,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <FlexBetween gap="1rem">
-            <img src="../assets/facebook.png" alt="twitter" />
+            <img src="../assets/facebook.png" alt="facebook" />
             <Box>
               <Typography color={main} fontWeight="500">
                 Twitter
