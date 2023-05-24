@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/negrudan/profilebook-social-media/issues"
   },
-  "homepage": "https://github.com/negrudan/profilebook-social-media#readme"
+  "homepage": "https://github.com/negrudan/profilebook-social-media#readme",
+  "dependencies": {
+    "@aws-sdk/lib-storage": "^3.338.0",
+    "aws-s3": "^2.0.5",
+    "multer-s3": "^3.0.1"
+  }
 }
