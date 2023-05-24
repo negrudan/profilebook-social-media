@@ -12,7 +12,7 @@ import {
   Link,
 } from "@mui/material";
 import {
-  Search,
+  // Search,
   Message,
   DarkMode,
   LightMode,
@@ -61,7 +61,7 @@ const Navbar = () => {
             Profilebook
           </Link>
         </Typography>
-        {isNonMobileScreens && (
+        {/* {isNonMobileScreens && (
           <FlexBetween
             backgroundColor={neutralLight}
             borderRadius="9px"
@@ -73,7 +73,7 @@ const Navbar = () => {
               <Search />
             </IconButton>
           </FlexBetween>
-        )}
+        )} */}
       </FlexBetween>
 
       {/* Desktop Navbar */}

@@ -265,6 +265,16 @@ const Form = () => {
                 ? "Don't have an account? Sign Up here."
                 : "Already have an account? Login here."}
             </Typography>
+            {isLogin ? (
+              <Typography sx={{ fontWeight: "700" }}>
+                For TEST ACCOUNT please use the following credentials: <br />{" "}
+                Email:{" "}
+                <span style={{ color: "red" }}>andreipopa@example.com</span>{" "}
+                <br /> Password: <span style={{ color: "red" }}>123456</span>
+              </Typography>
+            ) : (
+              ""
+            )}
           </Box>
         </form>
       )}
